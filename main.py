@@ -1,0 +1,35 @@
+import time
+import subprocess
+
+def run_files():
+    subprocess.run(["python", "download_data.py"])
+    subprocess.run(["python", "elaborated_plot.py"])
+    subprocess.run(["python", "elaborated_plot_2.py"])
+    subprocess.run(["python", "G16_air_mass_RGB_SR_plot.py"])
+    subprocess.run(["python", "G16_air_mass_RGB_SRCYL_plot.py"])
+    subprocess.run(["python", "G16_day_cloud_phase_RGB_SR_plot.py"])
+    subprocess.run(["python", "G16_day_cloud_phase_RGB_SRCYL_plot.py"])
+    subprocess.run(["python", "G16_GLM_FLASH_DENS_SR_plot.py"])
+    subprocess.run(["python", "G16_GLM_FLASH_ENERGY_ACCUM_SR_plot.py"])
+    subprocess.run(["python", "G16_GLM_FLASH_ENERGY_AVERAGE_SR_plot.py"])
+    subprocess.run(["python", "G16_GLM_FLASH_SR_plot.py"])
+    subprocess.run(["python", "G16_IR__FD_GP_plot.py"])
+    subprocess.run(["python", "G16_IR__FD_plot.py"])
+    subprocess.run(["python", "G16_IR__SR_plot.py"])
+    subprocess.run(["python", "G16_IR__SR_to_Geotiff.py"])
+    subprocess.run(["python", "G16_IR__SR_to_Netcdf.py"])
+    subprocess.run(["python", "G16_IR__SRCYL_plot.py"])
+    subprocess.run(["python", "G16_L1b_to_L2_IR__SR_plot.py"])
+    subprocess.run(["python", "G16_L1b_to_L2_VIS_SR_plot.py"])
+    subprocess.run(["python", "G16_L1b_to_L2_WV__SR_plot.py"])
+    subprocess.run(["python", "G16_RRQPEF_SR_plot.py"])
+    subprocess.run(["python", "G16_true_color_RGB_SR_plot.py"])
+    subprocess.run(["python", "G16_true_color_RGB_SRCYL_plot.py"])
+    subprocess.run(["python", "G16_VIS_SR_plot.py"])
+    subprocess.run(["python", "G16_WV__SR_plot.py"])
+    subprocess.run(["python", "G17_IR__FD_GP_plot.py"])
+    subprocess.run(["python", "G17_IR__FD_plot.py"])
+    subprocess.run(["python", "G17_IR__SR_plot.py"])
+
+
+run_files()
