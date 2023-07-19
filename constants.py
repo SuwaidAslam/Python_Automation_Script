@@ -1,9 +1,11 @@
 from datetime import datetime, timedelta
+import os
 
-IMAGES_FOLDER = "./plot_images"
-PATH_OUT = "./data/"
+cwd = os.getcwd()
 
 
+IMAGES_FOLDER = os.path.join(cwd, "plot_images")
+PATH_OUT = os.path.join(cwd, "data")
 # Get the current date and time
 current_date = datetime.now()
 
